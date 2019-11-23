@@ -1,0 +1,464 @@
+.logoprinc{
+	width: auto;
+    height: 60px;
+    position: relative;
+    top: -47px;
+}
+.text img{
+	height: auto;
+	max-width: 95%;
+}
+.galeria .fecha{
+	color:#555555 !important;
+	font-size: 12px;
+}
+.galeria h2{
+	margin-bottom: 0;
+}
+
+.footer-dark a{
+	color:white;
+}
+.btn-cepy.btn-primary{
+	background: #005D7E !important;
+	color: #f3f3f3 ;
+}
+.leer{
+	float: right;
+}
+a{
+	color:#00A1C7;
+}
+.text p{
+	text-align: justify;
+}
+
+td a{
+	color: #676d72;
+	font-weight: bold;
+	outline: none;
+}
+td a:hover{
+	text-decoration: none;
+}
+
+td a i{
+	color:#6091BA;
+}
+
+.formcurso{
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background: #feffc4;
+}
+.formcurso h3{
+ font-size: 22px;
+ font-weight: bold;
+}
+.formcurso h4{
+ font-size: 16px;
+  font-weight: bold;
+}
+
+.logochiquito{
+	width: auto;
+    height: 63px;
+    position: relative;
+    top: -4px;
+}
+
+.navbar-cepy.fixed-top {
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.barrarriba{
+	height: 27px;
+	background: #165B7C;
+}
+.fondobanner{
+	}
+
+
+.page_item a{
+    color:#f3f3f3;
+    display: block;
+    border-radius: 4px;
+    padding: 8px 12px 8px 12px;
+    margin-bottom: 1px;
+}
+.page_item a:hover{
+	text-decoration: none;
+}
+
+
+.page_item a, .nav > .page_item > a{
+    /*background: #c3c3c3;*/
+    background: #d6d6d6;
+    color: #3a3a3a;
+   text-transform: uppercase;
+   
+}
+.nav > .current_page_item > a, .nav > .page_item > a:hover{
+    background:#6091BA;  
+
+    color: #f3f3f3;
+}
+
+.breadcrumbs{
+	margin-top: 0;
+	background: #f7f4f4;
+	padding: 6px 0 6px 0;
+	font-style: italic;
+	font-size:13px;
+}
+
+.bodypad{
+	padding-top: 95px;
+}
+.projects .item{
+	display: block;
+	padding-top: 30px;
+}
+.projects .item .name{
+	color: #f3f3f3;
+	text-decoration: none;
+	padding-top: 0;
+}
+
+.projects .item:hover {
+	text-decoration: none;
+	
+}
+.projects .item:hover .row{
+	background: 26769b;
+}
+
+.highlight-phone .intro .btn-primary{
+	background: #005D7E;
+}
+.projects .item .row{
+	padding-top:15px;
+	padding-bottom: 15px;
+	min-height: 105px;
+	background:#0b7ba0;
+	margin-right: 5px;
+	transition:all 0.3s ease;
+}
+.nav-link{
+	outline: none;
+}
+.tab-content{
+	padding: 15px;
+	border-left: solid 1px transparent;
+	border-bottom: solid 1px transparent;
+	border-right: solid 1px transparent;
+	border-color: #dee2e6 #dee2e6 #fff;
+}
+.articles .item{
+	color: black;
+ 	text-decoration: none;
+ 	transition:all 0.3s ease;
+}
+.articles .item i{
+	color:#055ADA;
+	
+}
+
+
+.articles .item:hover{
+ 	text-decoration: none;
+ 	background: #dbdbdb;
+}
+
+
+.aligncenter{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 700px) {
+  .lateral{
+		margin-top: 52px;
+	}
+
+	.coltit{
+		padding: 0;
+	}
+
+	.navigation-clean .navbar-nav > li > .dropdown-menu{
+	background: #6091BA;
+	
+}
+
+	.navbar-brand{
+		margin-bottom: -90px;
+		z-index: 100000;
+		margin-top: -10px;
+	}
+
+	.fixed-top .navbar-brand{
+		margin-bottom: 0px;
+		margin-top: 0;
+	}
+
+	.carousel-caption{
+		right: 50%;
+		left: 5%;
+		background:rgba(22, 91, 124, 0.9);
+		text-transform: uppercase;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.carousel-caption h4{
+		font-weight: bold;
+		font-size: 22px;
+		
+	}
+
+	.carousel-caption h4 a{
+		color:#f3f3f3;
+	}
+	.carousel-caption h4 a:hover{
+		color:#f3f3f3;
+		text-decoration: none;
+	}
+	
+
+	.carousel-indicators{
+		left: auto;
+		margin-right: 3%;
+	}
+
+}
+
+
+
+@media (max-width: 699px) {
+
+#navcol-1{
+	width: 100%;
+}
+
+.logoprinc{
+	width: auto;
+	height:100px;
+}
+.navbar-brand{
+	width: 100%;
+	text-align: center;
+}
+.navbar-nav{
+	display: block;
+}
+.navbar-nav .menu-item{
+	width: 48%;
+	display: inline-block;
+	background: #6091BA;
+	margin-bottom: 3px;
+	text-align: center;
+}
+.navbar-nav .menu-item a{
+	color: white !important;
+
+}
+
+
+
+.navigation-clean .navbar-nav > li > .dropdown-menu{
+	background:#6091BA;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+
+.dropdown-menu.show{
+	position: absolute;
+}
+
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover, .navigation-clean.navbar-light .navbar-nav .nav-link.active{
+background: #14626F;
+color: white;
+}
+
+
+.dropdown-item.active, .dropdown-item:active{
+	background: white !important;
+	color:#3d3d3d !important;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item{
+	color:#f3f3f3;
+	font-size: 14px;
+}
+
+.navbar-nav li a{
+	font-weight: bold;
+}
+
+.titulnar{
+	margin-top: 30px;
+}
+
+.articulo.archive{
+margin-top: 15px;
+background: #F1F1F1;
+padding-top: 15px;
+border-radius: 5px;
+padding-bottom: 12px;
+}
+.post-event-body h2{
+	font-size: 1.5em;
+}
+
+.fc-day-grid-container {
+    height: 240px !important;
+
+}
+.alignleft{
+	float:left;
+	margin-right: 8px;
+}
+
+.articulo.archive:after{
+	 content: '';
+    display: block;
+    clear: both;
+}
+
+.fecha{
+	font-style: italic;
+	color:#00A1C7 !important;
+	margin-bottom: 6px;
+	display: inline-block;
+}
+
+.intro h1, .post-event-body h2 a, .TITULO_NOTICIAS, .posttitle{
+	color: #005C7D !important;
+
+}
+
+.nav-link, .intro h1, .post-event-body h2 a, .TITULO_NOTICIAS, .posttitle, h1, h2, h3{
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.fc-center h2{
+	padding-top: 15px;
+}
+
+.miembro:hover{
+	opacity: 0.7
+}
+.miembro{
+	background: #5FCBEF;
+	margin: 7px;
+	padding: 10px;
+	transition:all 0.3s ease;
+}
+
+.miembro .titulo{
+
+	font-size: 16px;
+	min-height: 3.2em;
+}
+.miembro .titulo a{
+	color: white;
+	font-weight: bold;
+}
+
+.organi img{
+	max-width: 35%;
+	height: auto;
+}
+.miembro .texto p{
+	font-size: 14px;
+	min-height: 12em;
+
+}
+
+.miembro h3{
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.miembro h4{
+	font-size: 13px;
+}
+.bloques {
+
+	padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: ;
+    background-image: url(http://www.pluscar.com.py/wp-content/uploads/2016/07/pluscarsusribite.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: ;
+    background-size: ;
+	-webkit-background-size: ;
+	padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: ;
+    background-image: url(http://www.pluscar.com.py/wp-content/uploads/2016/07/pluscarsusribite.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: ;
+    background-size: ;
+    -webkit-background-size: ;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.iconbloques {
+
+	padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ff0000;
+    background-image: url(http://www.pluscar.com.py/wp-content/uploads/2015/03/home_webdesign_pattern1.png);
+    background-repeat: repeat;
+    background-position: center top;
+    background-attachment: ;
+    background-size: ;
+    -webkit-background-size: ;
+}
+
+
+.bloquemarca {
+
+	padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f2f2f2;
+    background-image: url(http://www.pluscar.com.py/wp-content/uploads/2016/07/PLUSCARMASRCAS.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: ;
+    background-size: ;
+    -webkit-background-size: ;
+}
+
+
+.bloquecontactos {
+
+	padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ff0000;
+    background-image: url(http://www.pluscar.com.py/wp-content/uploads/2016/07/Pluscar_Banner-contactos-_original-1520x200px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: ;
+    background-size: ;
+	-webkit-background-size: ;
+	color: #fff;
+	text-align:center;
+}
+.section {
+	position: relative; 
+	
+}

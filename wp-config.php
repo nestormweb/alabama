@@ -70,6 +70,14 @@ $table_prefix = 'alab3w_';
  * en sus entornos de desarrollo.
  */
 define('WP_DEBUG', false);
+/** Activar WordPress Multisite **/
+define( 'WP_ALLOW_MULTISITE', true );
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'localhost');
+define('PATH_CURRENT_SITE', '/sitio/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 
